@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamental", "Fundamental\Fundamental.csproj", "{E605EACC-D856-4725-8832-98DCDA668A79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variables", "Fundamental\variables.csproj", "{E605EACC-D856-4725-8832-98DCDA668A79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45B5D026-3307-468F-AEA5-751C7A1E8F23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch01", "ch01", "{045BB751-3BC7-465B-A9D0-7C51DC5B0D6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +22,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E605EACC-D856-4725-8832-98DCDA668A79} = {045BB751-3BC7-465B-A9D0-7C51DC5B0D6C}
+		{045BB751-3BC7-465B-A9D0-7C51DC5B0D6C} = {45B5D026-3307-468F-AEA5-751C7A1E8F23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22377EE3-14E3-46B6-BD2E-1525AD8235BD}
